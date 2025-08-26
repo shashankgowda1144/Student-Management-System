@@ -15,6 +15,7 @@ public class Student {
 	private String degree;
 	private int yop;
 	
+	
 	public int getId() {
 		return id;
 	}
@@ -39,10 +40,14 @@ public class Student {
 	public void setYop(int yop) {
 		this.yop = yop;
 	}
+	
+	
 	@Override
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", degree=" + degree + ", yop=" + yop + "]";
 	}
+	
+	
 	public Student(int id, String name, String degree, int yop) {
 		super();
 		this.id = id;
@@ -50,6 +55,8 @@ public class Student {
 		this.degree = degree;
 		this.yop = yop;
 	}
+	
+	
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
